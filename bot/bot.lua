@@ -1,5 +1,5 @@
 -- #Beyond Self Robot
--- #@BeyondTeam
+-- #@MASAL20IR
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -62,12 +62,12 @@ end
 function create_self( )
   self = {
     names = {
-    "solid",
-    "سلید",
-    "سولید",
-    "سعید",
-    "saeed",
-    "saeid"
+    "یاسر",
+    "Yaser",
+    "Eblis",
+    "ابلیس",
+    "هکر",
+    "Hacker"
     },
     answers = {
     "وات؟ :/",
@@ -115,7 +115,7 @@ function create_config( )
 		"tools",
      "fun"
 	},
-    sudo_users = {157059515},
+    sudo_users = {188213002},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
@@ -125,7 +125,7 @@ An fun bot based on BDReborn
 》https://github.com/BeyondTeam/Self-BotV2 
 
 》Admins :
-》@SoLiD ➣ Founder & Developer《
+》@EBLIS_ANONYMOUS ➣ Founder & Developer《
 》@Makan ➣ Developer《
 》@To0fan ➣ Developer《
 》@CiveY ➣ Developeer《
@@ -138,10 +138,10 @@ An fun bot based on BDReborn
 》And Beyond Team Members
 
 》Our channel :
-》@BeyondTeam《
+》@MASAL20IR《
 
 》Our website :
-》http://BeyondTeam.ir
+》http://MASAL20.ir
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
